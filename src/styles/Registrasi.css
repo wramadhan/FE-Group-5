@@ -1,42 +1,68 @@
-.container{
+.kontainer{
     background-color:#F0F2F5;
-    padding: 2.5rem;
+    padding-top: 3.125vw;
 }
 
 .appLogo{
-    width: 3.563rem;
+    width: 4.453vw;
     float: left;
+    margin-left: 3.125vw;
+    margin-right: 6.621vw;
 }
 .daftar{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 60px;
+    font-size: 4.688vw;
     color:#1B74E4;
-    margin: 0;
-    float: left;
-    margin-left: 5.297rem;
+    margin-top: 0;
 }
 
-@media (min-width:1280px) {
-.appLogo{
-    font-size: 4%;
+.input{
+    width: 72.266vw;
+    height: 5.938vw;
+    margin-left: 13.835vw;
+    border: #1B74E4 2px solid;
+    border-radius: 25px;
+    margin-bottom: 2.578vw;
+    font-size: 3.125vw;
+    font-family: Arial, Helvetica, sans-serif;
 }
+.tombol{
+    width: 29.453vw;
+    height: 4.297vw;
+    background-color: #1B74E4;
+    color: #fff;
+    border-radius: 25px;
+    margin-left:35.234vw ;
+    font-size: 3.125vw;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-@media (max-width:605px) {
-    .daftar{
-        margin: 0;
-    }
-}
-@media (max-width:300px) {
-    .container{
-        margin:0;
+@media (max-width:600px) {
+    .kontener{
+        display: flex;
+        flex-direction: column;
     }
     .daftar{
-        font-size: 100%;
-        float: center;
+        display: flex;
+        align-items: center;
+        float: none;
+        font-size: 12vw;
+        
     }
     .appLogo{
-        width:60%;
-        float: center;
+        display: flex;
+        align-items: center;
+        width: 20vw;
+        float: none;
+        margin: auto;
+    }
+    .input{
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        height: auto;
+    }
+    .tombol{
+        height: auto;
     }
 }
