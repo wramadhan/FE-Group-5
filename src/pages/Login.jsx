@@ -7,7 +7,7 @@ const Login = () => {
         <input
           type="email"
           name="email"
-          class="mt-1 px-3 py-2 bg-white border items-center shadow-sm border-slate-300 placeholder-slate-400 
+          class="mt-1 px-3 py-2 bg-white border mx-auto shadow-sm border-slate-300 placeholder-slate-400 
           focus:outline-none focus:border-blue-500 focus:ring-sky-500 block w-1/2 rounded-md sm:text-sm focus:ring-1"
           placeholder="Email"
         />
@@ -18,7 +18,7 @@ const Login = () => {
         <input
           type="password"
           name="password"
-          class="mt-1 px-3 py-2 bg-white border shadow-sm border-slate-300 placeholder-slate-400 
+          class="mt-1 px-3 py-2 bg-white borde mx-autop shadow-sm border-slate-300 placeholder-slate-400 
           focus:outline-none focus:border-sky-500 focus:ring-sky-500 block w-1/2 rounded-md sm:text-sm focus:ring-1"
           placeholder="Password"
         />
