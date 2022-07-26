@@ -5,7 +5,7 @@ import appLogo from '../images/mychat.png'
 
 const SuntingProfil = () => {
     return(
-        <div className='kontainer w-full'>
+        <div className='kontainer'>
             <div className='atas'>
             <img src={appLogo} alt='appLogo' className='appLogo' />
             <h1 className='sunting'>Sunting Profil</h1>

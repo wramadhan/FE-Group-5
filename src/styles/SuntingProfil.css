@@ -3,6 +3,7 @@
     height: 100%;
     padding-top: 3.125vw;
     padding-left: 15.547vw;
+    width: 100%;
     /* padding-right: 15.547vw; */
 }
 
@@ -46,6 +47,7 @@
     color:#1B74E4;
 }
 .tombol{
+    width: 68.906vw;
     flex-direction: row;
     display: flex;
     align-items: center;
@@ -57,13 +59,16 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2.734vw;
     border-radius: 25px;
+    width: 33.594vw;
 }
 .simpan{
+    width: 33.594vw;
     background-color: #1B74E4;
     color: #F0F2F5;
     border: 2px solid #1B74E4;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2.734vw;
+    margin-left: 1.719vw;
     border-radius: 25px;
 }
 
