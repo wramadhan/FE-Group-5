@@ -1,15 +1,19 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import NavBar from "./component/NavBar";
+import Header from "./component/Header";
+
 // import "./index.css";
-// import Registrasi from "./pages/Registrasi";
+// import SuntingProfil from "./pages/SuntingProfil";
+import Registrasi from "./pages/Registrasi";
+// import Login from "./pages/Login";
 // import App from './App';
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   // <React.StrictMode>
-  <NavBar />
+  <Header />
   // </React.StrictMode>
 );
 
