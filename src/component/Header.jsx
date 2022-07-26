@@ -1,9 +1,10 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import appLogo from "../images/mychat.png";
+
+// import { Link } from "react-router-dom";
 
 const Header = () => {
-  return (
-    <h1 className="text-7xl text-center text-blue-600 font-medium">My Chat</h1>
-  );
+  return <h1 className="Chatting">My Chat</h1>;
+  <img className="appLogo" src={appLogo} alt="appLogo2" />;
 };
 export default Header;

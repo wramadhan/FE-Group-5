@@ -14,19 +14,24 @@ const Registrasi = () => {
   const navigate = useNavigate();
 
   //3
-  const HandleSubmit = (e) => {
+  const handleSubmit = (e) => {
     e.preventDefault();
-    const formData = new FormData();
-    formData.append("username", "asd");
-    formData.append("password", "asd");
-    formData.append("email", "email@mail.com");
-    formData.append("fullname", "asd");
     axios
-      .post("https://app.swaggerhub.com/apis/GolangProject/SosialMedia/1.0.1/users/", formData)
-      .then((response) => {})
-      .catch((error) => {})
-      .finally(() => {});
+      .post(`https://app.swaggerhub.com/apis/GolangProject/SosialMedia/1.0.1/users`, {
+        username: "asd",
+        password: "asd",
+        email: "email@mail.com",
+        fullname: "asd",
+      })
+      .then((response) => {
+        console.log(response);
+        alert("Good Job!", "Success Sign Up", "Success");
+      })
+      .catch(function (err) {
+        alert(err);
+      });
   };
+  
   return (
     <>
       <div className="kontainer w-full h-screen">
@@ -34,12 +39,12 @@ const Registrasi = () => {
           <img className="appLogo" src={appLogo} alt="appLogo" />
           <h1 className="daftar">Daftar Sekarang</h1>
         </div>
-        <div className="form">
-          <input className="input" placeholder="Nama Lengkap"></input>
-          <input className="input" placeholder="Nama Pengguna"></input>
-          <input className="input" placeholder="Kata Sandi"></input>
-          <input className="input" placeholder="Password"></input>
-          <button className="tombol">Buat Akun</button>
+        <div className="form" onSubmit={(e)=>handleSubmit(e)}>
+        <input className="input" placeholder="Nama Lengkap" value={username} onChange={(e) => setUserName(e.target.value)}></input>
+        <input className="input" placeholder="Nama Pengguna"></input>
+        <input className="input" placeholder="Kata Sandi"></input>
+        <input className="input" placeholder="Password"></input>
+        <button className="tombol">Buat Akun</button>
         </div>
       </div>
     </>
