@@ -1,15 +1,42 @@
 .navbar{
     background-color: #1B74E4;
     width: 100%;
-    height: 5.234vw;
-    padding: 0vw 5.078vw 0vw 5.078vw;
+    height: auto;
+    padding: 0.742vw 5.078vw 0.742vw 5.078vw;
+    height: 4vw;
 }
 .keluar{
     width: 2.891vw;
+    float: left;
+    margin-top:0.273vw;
+}
+.tengah{
+    margin: 0;
+}
+.subjek{
+    font-size: 1.953vw;
+    color: #fff;
+    float: left;
+    margin-top: 0.703vw;
+    margin-bottom: 0;
+}
+p{
+    color: #fff;
+    font-size: 1.563vw;
+    margin-left: 22.344vw;
+    margin-top: 0;
+    margin-bottom: 0;
+    float: left;
 }
 .appLogoPutih{
+    margin-left: 34.972vw;
     width: 2.969vw;
+    float: left;
+    margin-right: 0.781vw;
+    margin-top: 0.391vw;
 }
 .profil{
     width: 3.125vw;
+    margin-top: 0.313vw;
+    margin-left: 1.250vw;
 }
