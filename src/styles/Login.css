@@ -1,0 +1,65 @@
+Container {
+  display: flex;
+}
+.atas {
+  margin-left: 28.828vw;
+}
+.img {
+  width: 7.734vw;
+  margin-top: 0vw;
+  float: left;
+}
+.MyChat {
+  color: #1b74e4;
+  margin-left: 0vw;
+  font-size: 7.813vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.formEmail {
+  border-radius: 25px;
+  color: #1b74e4;
+  width: 58.672vw;
+  height: 4.453vw;
+  border: #1b74e4 2px solid;
+  font-size: 3.125vw;
+  margin-left: 21.328vw;
+}
+
+.formPwd {
+  border-radius: 25px;
+  color: #1b74e4;
+  width: 58.672vw;
+  height: 4.453vw;
+  border: #1b74e4 2px solid;
+  font-size: 3.125vw;
+  margin-top: 1.734vw;
+  margin-left: 21.328vw;
+}
+
+.tombol {
+  border-radius: 25px;
+  color: #fff;
+  width: 29.453vw;
+  height: 4.297vw;
+  font-size: 2.734vw;
+  border: #1b74e4 2px solid;
+  background-color: #1b74e4;
+  margin-top: 1.734vw;
+  margin-left: 34.844vw;
+}
+
+::placeholder {
+  color: #1b74e4;
+}
+
+.belum {
+  margin-left: 42.094vw;
+  margin-bottom: 0vw;
+}
+
+.daftar {
+  margin-left: 43.359vw;
+  color: #1b74e4;
+  margin-top: 0.391vw;
+}

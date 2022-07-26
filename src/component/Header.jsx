@@ -5,6 +5,6 @@ import appLogo from "../images/mychat.png";
 
 const Header = () => {
   return <h1 className="Chatting">My Chat</h1>;
-  <img className="appLogo" src={appLogo} alt="appLogo2" />;
+  <image className="appLogo" src={appLogo} alt="appLogo2" />;
 };
 export default Header;
