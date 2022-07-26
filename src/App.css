@@ -7,3 +7,9 @@
 .btn-blue:hover {
   @apply bg-blue-700;
 }
+
+#inputID::placeholder {
+  color: #1b74e4;
+  opacity: 2;
+  font-size: 28px;
+}
