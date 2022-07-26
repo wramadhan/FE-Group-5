@@ -5,7 +5,8 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
 const Registrasi = () => {
-  //1
+  /*
+  // 1
   const [username, setUserName] = useState("");
   const [password, setPassword] = useState("");
   const [email, setEmail] = useState("");
@@ -33,6 +34,7 @@ const Registrasi = () => {
         alert(err);
       });
   };
+  */
   return (
     <>
       <div className="kontainer w-full h-screen">
@@ -40,11 +42,13 @@ const Registrasi = () => {
           <img className="appLogo" src={appLogo} alt="appLogo" />
           <h1 className="daftar">Daftar Sekarang</h1>
         </div>
+        <div className="form">
         <input className="input" placeholder="Nama Lengkap"></input>
         <input className="input" placeholder="Nama Pengguna"></input>
         <input className="input" placeholder="Kata Sandi"></input>
         <input className="input" placeholder="Password"></input>
         <button className="tombol">Buat Akun</button>
+        </div>
       </div>
     </>
   );
