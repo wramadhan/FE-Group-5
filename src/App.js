@@ -1,16 +1,17 @@
-import Header from "./component/Header";
-import "./App.css";
-import Login from "./pages/Login";
+import NavBar from "./styles/NavBar.css";
+// import "./App.css";
+// import Login from "./pages/Login";
+import Dashboard from "./pages/Dashboard";
 
 function App() {
   return (
     <div>
       <div>
-        <Header />;
+        <NavBar />;
       </div>
 
-      <div className="Login">
-        <Login />
+      <div>
+        <Dashboard />
       </div>
     </div>
   );
