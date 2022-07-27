@@ -1,0 +1,62 @@
+.HeadComment {
+  margin-top: 2.969vw;
+  font-size: 2.344vw;
+}
+.cardhead {
+  float: left;
+  margin-left: 2vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.img1 {
+  float: left;
+  width: 2.344vw;
+  margin-left: 7.484vw;
+}
+
+.img2 {
+  float: left;
+  width: 2.744vw;
+  margin-left: 28.875vw;
+}
+.img3 {
+  float: left;
+  width: 2.344vw;
+  margin-left: 1vw;
+}
+
+.status {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.563vw;
+  margin-top: 4.656vw;
+  margin-left: 7.484vw;
+  margin-right: 5vw;
+  margin-bottom: 2vw;
+  border-width: 5px;
+  border-radius: 25px;
+  border-style: solid;
+  color: #1b74e4;
+}
+
+.Border {
+  margin-top: 13.969vw;
+  background-color: whitesmoke;
+  margin-left: 13.828vw;
+  margin-right: 13.828vw;
+  border-width: 5px;
+  border-radius: 25px;
+  border-style: solid;
+  color: #1b74e4;
+}
+
+.ButtonCmt {
+  display: block;
+  background-color: #1b74e4;
+  width: 57.641vw;
+  margin-left: 7.628vw;
+  margin-bottom: 1.58vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.563vw;
+}
