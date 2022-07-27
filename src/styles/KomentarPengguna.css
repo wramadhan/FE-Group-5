@@ -1,0 +1,17 @@
+.page{
+    background-color: #F0F2F5;
+    height: 100%;
+}
+.navbar{
+margin-bottom: 1.797vw;
+}
+@media (max-width: 600px) {
+    .navbar{
+        margin-bottom: 1.797vw;
+        height: 9vw;
+        padding-top: 2vw ;
+    }
+    .card{
+        width: 95%;
+    }
+}
