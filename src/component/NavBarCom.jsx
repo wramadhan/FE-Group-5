@@ -10,7 +10,7 @@ const NavBar =()=>{
             <img className='home' src={home} alt="Tombol home" />
             <div className="tengah">
             <img className='appLogoPutih' src={appLogoPutih} alt="appLogoPutih" />
-            <h1 className='subjek'>Halaman Utama</h1>
+            <h1 className='subjek'>Komentar</h1>
             </div>
             <div className="kanan">
             <p className='user'>Hai Pengguna,<br />Hari yang indah</p>
