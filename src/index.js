@@ -1,18 +1,19 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import NavBar from "./component/NavBar";
-import Login from "./component/Login/Login";
+// import NavBar from "./component/NavBar";
+// import Login from "./component/Login/Login";
 // import "./index.css";
 // import SuntingProfil from "./pages/SuntingProfil";
 // import Registrasi from "./pages/Registrasi";
 // import Login from "./pages/Login";
 // import App from './App';
 import reportWebVitals from "./reportWebVitals";
+import Notuser from "./pages/Notuser";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   // <React.StrictMode>
-  <Login />
+  <Notuser />
   // </React.StrictMode>
 );
 

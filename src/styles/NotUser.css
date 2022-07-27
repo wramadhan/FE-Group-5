@@ -1,0 +1,153 @@
+.HeadComment {
+  margin-top: 2.969vw;
+  font-size: 2.344vw;
+}
+.cardhead {
+  color: black;
+  float: left;
+  margin-left: 2vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.img1 {
+  float: left;
+  width: 2.344vw;
+  margin-left: 7.484vw;
+}
+
+.img2 {
+  float: left;
+  width: 2.744vw;
+  margin-left: 1.875vw;
+}
+.img3 {
+  float: left;
+  width: 2.344vw;
+  margin-left: 1vw;
+}
+
+.status {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.563vw;
+  margin-top: 4.656vw;
+  margin-left: 7.484vw;
+  margin-right: 5vw;
+  margin-bottom: 2vw;
+  border-width: 5px;
+  border-radius: 25px;
+  border-style: solid;
+  color: #1b74e4;
+}
+
+.Border {
+  margin-top: 3.969vw;
+  background-color: whitesmoke;
+  margin-left: 13.828vw;
+  margin-right: 13.828vw;
+  border-width: 5px;
+  border-radius: 25px;
+  border-style: solid;
+  color: #1b74e4;
+}
+
+.Border2 {
+  margin-top: 2 0.969vw;
+  background-color: whitesmoke;
+  margin-top: 2vw;
+  margin-left: 13.828vw;
+  margin-right: 13.828vw;
+  border-width: 5px;
+  border-radius: 25px;
+  border-style: solid;
+  color: #1b74e4;
+}
+
+.ButtonCmt {
+  border-color: #1b74e4;
+  color: #1b74e4;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 25px;
+  border-width: 5px;
+  display: block;
+  background-color: #fcfcfc;
+  width: 57.641vw;
+  margin-left: 7.628vw;
+  margin-bottom: 1.58vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.563vw;
+}
+.img4 {
+  float: left;
+  width: 2.344vw;
+  margin-left: 23.571vw;
+}
+.img5 {
+  float: left;
+  width: 2.344vw;
+  margin-left: 1.571vw;
+}
+
+textarea {
+  margin-top: 1vw;
+  margin-left: 7.484vw;
+  width: 58.266vw;
+  border-width: 0px;
+  height: 5vw;
+  box-sizing: border-box;
+  color: #1b74e4;
+  background-color: #fcfcfc;
+  font-size: 20px;
+  resize: none;
+}
+::placeholder {
+  float: left;
+  margin-left: 0vw;
+  font-size: 1.563vw;
+  opacity: 0.5;
+}
+.ButtonPst {
+  margin-top: 1vw;
+  margin-left: 54.972vw;
+  border-color: #1b74e4;
+  color: #1b74e4;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 25px;
+  border-width: 5px;
+  display: block;
+  background-color: #fcfcfc;
+  width: 10.641vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.563vw;
+}
+.lorem {
+  color: black;
+  margin-top: 1vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  margin-bottom: 1vw;
+}
+
+.cardhead2 {
+  color: #1b74e4;
+  float: left;
+  margin-left: 2vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.status2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.563vw;
+  margin-top: 1.656vw;
+  margin-left: 7.484vw;
+  margin-right: 5vw;
+  margin-bottom: 2vw;
+  border-width: 5px;
+  border-radius: 25px;
+  border-style: solid;
+  color: #1b74e4;
+}
