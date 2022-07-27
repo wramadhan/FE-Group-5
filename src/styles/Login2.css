@@ -1,0 +1,96 @@
+.bg{
+    background-color:F0F2F5;
+    width: 100%;
+    height: 100%;
+}
+.mychat{
+    margin-left: 30%;
+    width: 7.734vw;
+    margin-right:10px;
+    float: left;
+}
+.subjek{
+    color: #1B74E4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 7.813vw;
+}
+.form{
+    margin-top: 1.953vw;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input{
+    margin-top: 1.953vw;
+    width: 58.672vw;
+    height: 4.453vw;
+    border-radius: 25px;
+    border: #1B74E4 0.156vw solid;
+    color: #1B74E4;
+    font-size: 3.125vw;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 2.188vw;
+}
+.submit{
+    margin-top: 2.656vw;
+    width: 29.453vw;
+    height: 4.297vw;
+    background-color: #1B74E4;
+    border-radius: 25px;
+    border: #1B74E4 2px solid;
+    font-size: 2.734vw;
+    color: #fff;
+}
+.bawah{
+    margin-top: 1.953vw;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.563vw;
+}
+.belum{
+    margin-top: 1.95vw;
+    margin: 0;
+}
+.daftar{
+    margin-top: 0.391vw;
+    color: #1B74E4;
+}
+@media (max-width:500px){
+    .wrapper{
+        margin-top: 1.953vw;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .mychat{
+    width: 30vw;
+    float: none;
+    margin-left: 8vw;
+    }
+    .subjek{
+        font-size: 10vw;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .input{
+        width: 95%;
+        height: auto;
+        font-size: 4vw;
+    }
+    .submit{
+        width: 50%;
+        height: fit-content;
+        font-size: 4vw;
+    }
+    .belum {
+        font-size: 4vw;
+    }
+    .daftar {
+        font-size: 4vw;
+    }
+}
