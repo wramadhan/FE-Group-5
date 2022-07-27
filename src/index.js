@@ -1,20 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+// import CardCommentLain from "./component/CardCommentLain";
 // import CardComment from "./component/CardComment";
 // import "./index.css";
-import KomentarPenggguna from "./pages/KomentarPengguna";
+import KomentarPengggunaLain from "./pages/KomentarPenggunaLain";
 // import Login from "./pages/Login";
 // import App from './App';
-import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   // <React.StrictMode>
-  <KomentarPenggguna />
+  <KomentarPengggunaLain />
   // </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
