@@ -5,8 +5,6 @@
     padding: 0.742vw 5.078vw 0.742vw 5.078vw;
     height: 4vw;
 }
-
-
 .home{
     width: 2.891vw;
     float: left;
@@ -44,7 +42,7 @@ p{
 }
 @media (max-width: 600px) {
     .navbar{
-        height: max-content;
+        height: auto;
     }
     .profil{
         width: 7vw;

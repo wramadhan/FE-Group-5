@@ -1,10 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import NavBar from "./component/NavBar";
-import Login from "./component/Login/Login";
+// import CardComment from "./component/CardComment";
 // import "./index.css";
-// import SuntingProfil from "./pages/SuntingProfil";
-// import Registrasi from "./pages/Registrasi";
+import KomentarPenggguna from "./pages/KomentarPengguna";
 // import Login from "./pages/Login";
 // import App from './App';
 import reportWebVitals from "./reportWebVitals";
@@ -12,7 +10,7 @@ import reportWebVitals from "./reportWebVitals";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   // <React.StrictMode>
-  <Login />
+  <KomentarPenggguna />
   // </React.StrictMode>
 );
 
