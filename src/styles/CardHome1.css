@@ -1,0 +1,64 @@
+.kontainer6{
+    background-color: #fff;
+    border: 2px solid #1B74E4;
+    border-radius: 2.344vw;
+    width: 72.266vw;
+    padding: 2.77vh 2.656vw;
+    margin: 3.733vh auto;
+}
+.profil6{
+    width: 2.344vw;
+    float: left;
+}
+.namauser6{
+    float: left;
+    font-size: 2.344vw;
+    margin: 0 42vw 0 1.270vw;
+}
+.sunting6{
+    width: 2.969vw;
+    float: left;
+}
+.trash6{
+    margin-left: 1vw;
+    width: 2.5vw;
+}
+.kolom6{
+    background-color:#F0F2F5;
+    border-radius: 1.563vw;
+    border: #1B74E4 0.078vw solid;
+    height: auto;
+    width: 69.141vw;
+    padding: 2.66vh 1.094vw;
+    margin-top: 0.169vw;
+}
+.paragraf6{
+color:black;
+margin:0;
+float: none;
+text-align: justify;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1.563vw;
+}
+.komentarsendiri6{
+    padding-top: 0.2vh;
+    padding-bottom: 0.2vh;
+    margin-top: 2.666vh;
+    width: 99%;
+    height: 4.1333vh;
+    color:#1B74E4;
+    background-color: #fff;
+    border-radius: 1.953vw;
+    border: #1B74E4 0.234vw solid;
+    font-size: 1.563vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+@media (max-width: 768px) {
+    .kontainer6{
+        width: 90%;
+    }
+    .kolom6{
+        width: 96%;
+    }
+}
