@@ -2,63 +2,81 @@
     background-color:#F0F2F5;
     height: 100%;
     padding-top: 3.125vw;
-    padding-left: 15.547vw;
     width: 100%;
-    /* padding-right: 15.547vw; */
 }
 
 .appLogo{
     width: 5.703vw;
     margin-right:2.037vw;
-    float: left;
-    margin-left: 11.875vw;
+    float: left !important;
+    margin: 0;
+    margin-left: 27.422vw;
 }
 .sunting{
+    margin-left: 1.563vw !important;
     color: #1B74E4;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 4.700vw;
     margin-top: 0;
+    float: none !important;
+    display: inline;
 }
 .konten-kiri{
     float:left;
+    margin-top:3vw;
     margin-right: 5.703vw;
+    margin-left: -25%;
+}
+.konten-kanan{
+    /* float: none; */
+    margin-top: 1.953vw;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .unggah{
     text-align: center;
     border: #1B74E4 2px solid;
     width: 18.906vw;
-    border-radius: 25px;
+    border-radius: 1.953vw;
     color: #1B74E4;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2.344vw;
     margin-bottom: 1.5vw;
+    margin-left: 7%;
 }
 .profil{
-    width: 18.906vw;
+    width: 18.906vw !important;
+}
+.atas{
+    width: 90vw;
+    height: max-content;
 }
 .input{
-    width: 44.297vw;
+    width: 90% !important;
     height: 4vw;
     border: 2px solid #1B74E4;
     border-radius: 1.953vw;
-    margin-bottom: 1.953vw;
     font-size: 3.125vw;
     font-family: Arial, Helvetica, sans-serif;
     color:#1B74E4;
+    margin: 0vw 0vw 1.953vw 0vw !important;
 }
 .tombol{
     width: 68.906vw;
-    flex-direction: row;
-    display: flex;
     align-items: center;
     justify-content: center;
+    margin: auto;
+    background-color: #F0F2F5;
+    border: none;
 }
 .batal{
     color: #1B74E4;
     border: 2px solid #1B74E4;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2.734vw;
-    border-radius: 25px;
+    border-radius: 1.953vw;
     width: 33.594vw;
 }
 .simpan{
@@ -68,8 +86,8 @@
     border: 2px solid #1B74E4;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2.734vw;
+    border-radius: 1.953vw;
     margin-left: 1.719vw;
-    border-radius: 25px;
 }
 
 .batal:hover{
@@ -80,7 +98,7 @@
     -webkit-box-shadow: inset -0.078vw -0.078vw 1.172vw 0.469vw #F0F2F5; 
     box-shadow: inset -0.078vw -0.078vw 1.172vw 0.469vw #F0F2F5;
 }
-@media (max-width: 425px) {
+/* @media (max-width: 425px) {
     .kontainer{
         padding: 0;
     }
@@ -93,10 +111,8 @@
         justify-content: center;
     }
     .atas{
-        flex-direction: row;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        width: 100%;
+        float: left;
     }
     .sunting{
         margin-left: 2.031vw;
@@ -128,14 +144,15 @@
         justify-content: center;
     }
     .input{
-        width: 90%;
+        width: 40%;
+        margin-left: 0 !important;
     }
     .batal, .simpan{
         font-size: 4vw;
     }
-}
-@media (min-width: 1280px) {
+} */
+/* @media (min-width: 1280px) {
     .profil{
         width: 18.906vw;
     }
-}
+} */

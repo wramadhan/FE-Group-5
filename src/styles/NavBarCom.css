@@ -14,8 +14,8 @@
     margin: 0;
 }
 .subjek{
-    font-size: 1.953vw;
-    color: #fff;
+    font-size: 1.953vw !important;
+    color: #fff !important;
     float: left;
     margin-top: 0.703vw;
     margin-bottom: 0;
@@ -36,7 +36,7 @@ p{
     margin-top: 0.391vw;
 }
 .profil{
-    width: 3.125vw;
+    width: 3.125vw !important;
     margin-top: 0.313vw;
     margin-left: 1.250vw;
 }

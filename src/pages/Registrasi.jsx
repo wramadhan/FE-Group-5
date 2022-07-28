@@ -39,13 +39,13 @@ const Registrasi = () => {
           <img className="appLogo" src={appLogo} alt="appLogo" />
           <h1 className="daftar">Daftar Sekarang</h1>
         </div>
-        <div className="form" onSubmit={(e)=>handleSubmit(e)}>
+        <form className="form" onSubmit={(e)=>handleSubmit(e)}>
         <input className="input" placeholder="Nama Lengkap" value={username} onChange={(e) => setUserName(e.target.value)}></input>
         <input className="input" placeholder="Nama Pengguna"></input>
         <input className="input" placeholder="Kata Sandi"></input>
         <input className="input" placeholder="Password"></input>
         <button className="tombol">Buat Akun</button>
-        </div>
+        </form>
       </div>
     </>
   );
