@@ -15,9 +15,9 @@
 .tengah{
     margin: 0;
 }
-.subjek{
-    font-size: 1.953vw;
-    color: #fff;
+.subjek1{
+    font-size: 1.953vw !important;
+    color: #fff !important;
     float: left;
     margin-top: 0.703vw;
     margin-bottom: 0;
@@ -42,7 +42,7 @@ p{
     margin-top: 0.313vw;
     margin-left: 1.250vw;
 }
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
     .navbar{
         height: max-content;
     }
@@ -60,7 +60,7 @@ p{
         margin-right: 0.781vw;
         margin-top: 0.391vw;
     }
-    .subjek{
+    .subjek1{
         font-size: 4vw;
     }
     p{
@@ -69,4 +69,4 @@ p{
         margin-left: 4vw;
 
     }
-}
+} */

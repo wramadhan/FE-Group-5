@@ -4,14 +4,18 @@ import sunting from '../images/edit.png';
 import trash from '../images/trash.png';
 import profil from '../images/profilcard.png';
 import KontenKomen from './KontenKomen';
+import {Link} from 'react-router-dom';
 
 const CardComment = () => {
     const [postingan]= useState("Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit perferendis voluptatum fugiat! Iusto neque beatae minus eligendi. Unde, cupiditate consequatur?");
     const [komentar]= useState("<!-- Komentar -->");
 return(
+    // <BrowserRouter>
     <div className="card">
-    <img className='profil' src={profil} alt="profil" />
-    <h2 className='namauser'>Nama Pengguna</h2>
+    <Link to="/sunting">
+        <img className='profil' src={profil} alt="profil"/>
+    </Link>
+    <h2 className='namauser1'>Nama Pengguna</h2>
     <img className='sunting' src={sunting} alt="sunting" />
     <img className='trash' src={trash} alt="trash" />
     <div className="boxstatus">{postingan}</div>
@@ -20,6 +24,7 @@ return(
     <button className="posting">Posting</button>
     <KontenKomen />
     </div>
+    // </BrowserRouter>
 )
 }
 export default CardComment;
