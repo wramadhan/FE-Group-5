@@ -6,7 +6,7 @@ import '../styles/CardHome1.css';
 import {Link} from 'react-router-dom';
 
 const CardHome1 =()=>{
-    const [paragraf] = useState('Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consequatur provident officiis id ipsam iusto fugiat quia voluptatum dicta iure!')
+    const [paragraf] = useState('')
     return(
         <div className="kontainer6">
             <img src={profil} alt='profil' className='profil6'/>

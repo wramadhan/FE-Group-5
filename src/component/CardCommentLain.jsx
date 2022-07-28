@@ -5,7 +5,7 @@ import KontenKomen from './KontenKomen';
 import {Link} from 'react-router-dom';
 
 const CardComment = () => {
-    const [postingan]= useState("Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit perferendis voluptatum fugiat! Iusto neque beatae minus eligendi. Unde, cupiditate consequatur?");
+    const [postingan]= useState("");
     const [komentar]= useState("<!-- Komentar -->");
 return(
     // <BrowserRouter>
