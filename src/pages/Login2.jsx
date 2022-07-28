@@ -1,6 +1,6 @@
 import '../styles/Login2.css';
 import mychat from '../images/mychat.png';
-import {BrowserRouter, Router, Link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 const Login2 =()=> {
 return(
@@ -16,7 +16,7 @@ return(
     </form>
     <div className="bawah">
     <p className='belum'>Belum mendaftar?</p>
-    <p className='daftar'><Link to={`/registrasi`}>Daftar sekarang</Link></p>
+    <p className='daftar'><Link to='/registrasi'>Daftar sekarang</Link></p>
     </div>
     </div>
 )

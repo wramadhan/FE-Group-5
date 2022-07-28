@@ -17,30 +17,29 @@
 .form{
     margin-top: 1.953vw;
     flex-direction: column;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .input{
     margin-top: 1.953vw;
     width: 58.672vw;
     height: 4.453vw;
-    border-radius: 25px;
+    border-radius: 4vw;
     border: #1B74E4 0.156vw solid;
     color: #1B74E4;
     font-size: 3.125vw;
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 2.188vw;
+    margin-left: 17%;
 }
 .submit{
     margin-top: 2.656vw;
     width: 29.453vw;
     height: 4.297vw;
     background-color: #1B74E4;
-    border-radius: 25px;
+    border-radius: 4vw;
     border: #1B74E4 2px solid;
     font-size: 2.734vw;
     color: #fff;
+    margin-left: 34%;
 }
 .bawah{
     margin-top: 1.953vw;
@@ -50,18 +49,25 @@
     justify-content: center;
     font-family:Arial, Helvetica, sans-serif;
     font-size: 1.563vw;
+    margin-left: 0;
 }
 .belum{
+    font-size: 4vw;
     margin-top: 1.95vw;
     margin: 0;
+    color: black;
+    font-size: 1.563vw;
+    margin-left: 0;
 }
 .daftar{
+    margin-left: 0;
     margin-top: 0.391vw;
     color: #1B74E4;
+    font-size: 1.563vw;
 }
-@media (max-width:500px){
+@media (max-width:600px){
     .wrapper{
-        margin-top: 1.953vw;
+    margin-top: 1.953vw;
     flex-direction: column;
     display: flex;
     align-items: center;
@@ -83,14 +89,17 @@
         font-size: 4vw;
     }
     .submit{
+        margin-left:0;
         width: 50%;
         height: fit-content;
         font-size: 4vw;
     }
     .belum {
         font-size: 4vw;
+        margin-left: 0;
     }
     .daftar {
+        margin-left: 0;
         font-size: 4vw;
     }
 }
