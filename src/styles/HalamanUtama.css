@@ -1,0 +1,35 @@
+.bg5{
+width: 100%;
+height: fit-content;
+background-color: #F0F2F5;
+}
+.input5{
+    width: 72.266vw;
+    height: 6.9444 vh;
+    margin-left: 10%;
+    margin-top: 4.861vh;
+    border-radius: 40px;
+    border: 0.156vw solid #1B74E4;
+    font-size: 1.563vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1B74E4;
+    padding:1.8vh 2.656vw;
+}
+.posting5{
+    width: 12.578vw;
+    height: 4.3055vh;
+    background-color: #1B74E4;
+    border: #1B74E4 2px solid;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.563vw;
+    border-radius: 25px;
+    margin-left: 75%;
+    margin-top: 2.777vh;
+}
+@media (max-width: 768px) {
+    .input5{
+        margin-left: 2%;
+        width: 90%;
+    }
+}

@@ -6,12 +6,12 @@
 .appLogo{
     width: 4.453vw;
     float: left;
-    margin-left: 25% !important;
+    margin-left: 3.125vw;
     margin-right: 6.621vw;
 }
 .daftar{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 4.688vw !important;
+    font-size: 4.688vw;
     color:#1B74E4;
     margin-top: 0;
 }
@@ -27,12 +27,12 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 .tombol{
-    width: 29.453vw !important;
+    width: 29.453vw;
     height: 4.297vw;
-    background-color: #1B74E4 !important;
+    background-color: #1B74E4;
     color: #fff;
-    border-radius: 1.953vw;
-    margin-left:30% !important;
+    border-radius: 25px;
+    margin-left:35.234vw ;
     font-size: 3.125vw;
     font-family: Arial, Helvetica, sans-serif;
     border: #1B74E4 2px solid;
@@ -65,7 +65,7 @@
         margin-top: 1.953vw;
         flex-direction: column;
         display: flex;
-        align-items: center ;
+        align-items: center;
         justify-content: center;
     }
     .input{
