@@ -1,14 +1,14 @@
 import React from "react";
 import { Button, Col, Container, Form, Row } from "react-bootstrap";
 import "../../styles/Login.css";
-// import Header from "../Header";
+import Header from "../Header";
 
 import appLogo from "../../images/mychat.png";
 
 const Login = () => {
   return (
     <>
-      {/* <Header /> */}
+      <Header />
       <div className="atas">
         <img className="img" src={appLogo} alt="appLogo" />
         <h1 className="MyChat">My Chat</h1>
@@ -32,7 +32,7 @@ const Login = () => {
                   placeholder="Kata Sandi"
                 />
               </Form.Group>
-              <Button className="tombol" type="submit">
+              <Button className="tombol" type="submit">{' '}
                 Masuk
               </Button>
             </Form>
