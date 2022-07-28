@@ -1,41 +1,39 @@
-.kontainer{
+.kontainer2{
     background-color:#F0F2F5;
     height: 100%;
     padding-top: 3.125vw;
     width: 100%;
 }
 
-.appLogo{
+.appLogo2{
     width: 5.703vw;
     margin-right:2.037vw;
-    float: left !important;
+    float: left;
     margin: 0;
     margin-left: 27.422vw;
 }
-.sunting{
-    margin-left: 1.563vw !important;
+.sunting2{
+    margin-left: 1.563vw;
     color: #1B74E4;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 4.700vw;
     margin-top: 0;
-    float: none !important;
     display: inline;
 }
-.konten-kiri{
+.konten-kiri2{
     float:left;
     margin-top:3vw;
     margin-right: 5.703vw;
     margin-left: -25%;
 }
-.konten-kanan{
-    /* float: none; */
+.konten-kanan2{
     margin-top: 1.953vw;
     flex-direction: column;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.unggah{
+.unggah2{
     text-align: center;
     border: #1B74E4 2px solid;
     width: 18.906vw;
@@ -46,24 +44,24 @@
     margin-bottom: 1.5vw;
     margin-left: 7%;
 }
-.profil{
-    width: 18.906vw !important;
+.profil2{
+    width: 18.906vw;
 }
-.atas{
+.atas2{
     width: 90vw;
     height: max-content;
 }
-.input{
-    width: 90% !important;
+.input2{
+    width: 90%;
     height: 4vw;
     border: 2px solid #1B74E4;
     border-radius: 1.953vw;
     font-size: 3.125vw;
     font-family: Arial, Helvetica, sans-serif;
     color:#1B74E4;
-    margin: 0vw 0vw 1.953vw 0vw !important;
+    margin: 0vw 0vw 1.953vw 0vw;
 }
-.tombol{
+.tombol2{
     width: 68.906vw;
     align-items: center;
     justify-content: center;
@@ -71,71 +69,66 @@
     background-color: #F0F2F5;
     border: none;
 }
-.batal{
+.batal2{
     color: #1B74E4;
     border: 2px solid #1B74E4;
+    font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2.734vw;
     border-radius: 1.953vw;
     width: 33.594vw;
 }
-.simpan{
+.simpan2{
     width: 33.594vw;
     background-color: #1B74E4;
-    color: #F0F2F5;
+    color: #F0F2F5 !important;
     border: 2px solid #1B74E4;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2.734vw;
     border-radius: 1.953vw;
     margin-left: 1.719vw;
+    font-weight: bold;
 }
 
-.batal:hover{
+.batal2:hover{
     -webkit-box-shadow: inset -0.078vw -0.078vw 1.172vw 0.469vw #1B74E4; 
     box-shadow: inset -0.078vw -0.078vw 1.172vw 0.469vw #1B74E4;
 }
-.simpan:hover{
+.simpan2:hover{
     -webkit-box-shadow: inset -0.078vw -0.078vw 1.172vw 0.469vw #F0F2F5; 
     box-shadow: inset -0.078vw -0.078vw 1.172vw 0.469vw #F0F2F5;
 }
-/* @media (max-width: 425px) {
-    .kontainer{
+@media (max-width: 425px) {
+    .kontainer2{
         padding: 0;
     }
-    .konten-kiri{
+    .konten-kiri2{
         float: none;
-        margin: 0;
         flex-direction: column;
         display: flex;
-        align-items: center;
-        justify-content: center;
     }
-    .atas{
-        width: 100%;
-        float: left;
-    }
-    .sunting{
+    .sunting2{
         margin-left: 2.031vw;
-        margin-top: 0;
+        margin-top: 5vw;
         font-size: 9vw;
-        margin-top: 2vw;
+        display: block;
     }
-    .appLogo{
+    .appLogo2{
         margin: 0;
         width: 20vw;
     }
-    .profil{
+    .profil2{
         margin-top: 1vw;
         width: 50vw;
     }
-    .unggah{
+    .unggah2{
         width: 45vw;
         float:none;
-        margin: 0;
+        margin-left: 2vw;
         font-size: 5vw;
         height: auto;
     }
-    .konten-kanan{
+    .konten-kanan2{
         float: none;
         margin-top: 1.953vw;
         flex-direction: column;
@@ -143,16 +136,16 @@
         align-items: center;
         justify-content: center;
     }
-    .input{
-        width: 40%;
-        margin-left: 0 !important;
+    .input2{
+        width: 90%;
+        margin-left: 0;
     }
-    .batal, .simpan{
+    .batal2, .simpan2{
         font-size: 4vw;
     }
-} */
-/* @media (min-width: 1280px) {
-    .profil{
+} 
+ @media (min-width: 1280px) {
+    .profil2{
         width: 18.906vw;
     }
-} */
+}
